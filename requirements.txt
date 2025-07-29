@@ -1,0 +1,39 @@
+Installations-
+1.pip install Flask
+2.pip install Flask-Cors
+3.pip install python-dotenv
+4.pip install PyMuPDF
+5.pip install tiktoken
+6.pip install faiss-cpu
+7.pip install sentence-transformers
+8.pip install tf-keras
+9.pip install google-generativeai
+10. pip install waitress
+11.npm install
+
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+openai
+PyMuPDF
+faiss-cpu
+
+
+Core Functionality:
+1.PDF Upload & Viewing
+2.Real-time AI Chat
+3.Intelligent Answers
+
+Technical Implementation:
+1.RAG (Retrieval-Augmented Generation)
+2.File Processing & Chunking
+3.Local Embeddings: Hugging Face
+
+
+Bonus Features:
+1.Voice Input (Speech-to-Text)
+2.Voice Output (Text-to-Speech)
+3.Chat History Persistence
+4.Document Summarization
+5.Text Selection for Query

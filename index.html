@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Document Q&A Application</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Optional: Custom font if not using Tailwind's default or if 'Inter' is desired */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Ensure the root div takes full height */
+        #root {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <!-- Your React app will be mounted here -->
+    </div>
+
+    <!-- The main entry point for your React app -->
+    <!-- This file (e.g., src/main.jsx or src/index.js) will import and render your App.js component. -->
+    <!-- The bundler (like Vite or Webpack) will process this and create the final bundle. -->
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
