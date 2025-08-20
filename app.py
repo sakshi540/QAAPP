@@ -22,7 +22,7 @@ load_dotenv()
 
 # --- Configuration ---
 # Get Gemini API Key from environment variables
-GEMINI_API_KEY = 'AIzaSyArBMt56XFQJSEJb1uyWbEo3-Xtfd0HU7M'
+GEMINI_API_KEY = 'Your_Key'
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY not found in environment variables. Please set it in your .env file.")
 
@@ -293,3 +293,4 @@ if __name__ == '__main__':
     # Using Waitress for a stable synchronous environment on Windows
     # No need for debug=False, use_reloader=False with serve()
     serve(app, host='0.0.0.0', port=5000)
+
